@@ -8,4 +8,4 @@
 -[6 pizzeria](https://github.com/bryanff25/Estructuras_Datos/blob/main/pizzeria.java)
 -[7 promedio](https://github.com/bryanff25/Estructuras_Datos/blob/main/promedio.java)
 -[8 Principal](https://github.com/bryanff25/Estructuras_Datos/blob/main/principal.java)
--[9 Funciones]()
+-[9 Funciones](https://github.com/bryanff25/Estructuras_Datos/blob/main/funciones.java)
