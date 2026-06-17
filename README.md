@@ -9,3 +9,4 @@
 -[7 promedio](https://github.com/bryanff25/Estructuras_Datos/blob/main/promedio.java)
 -[8 Principal](https://github.com/bryanff25/Estructuras_Datos/blob/main/principal.java)
 -[9 Funciones](https://github.com/bryanff25/Estructuras_Datos/blob/main/funciones.java)
+-[10 Perro](https://github.com/bryanff25/Estructuras_Datos/blob/main/Perro.java)
