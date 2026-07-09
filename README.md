@@ -10,3 +10,8 @@
 -[8 Principal](https://github.com/bryanff25/Estructuras_Datos/blob/main/principal.java)
 -[9 Funciones](https://github.com/bryanff25/Estructuras_Datos/blob/main/funciones.java)
 -[10 Perro](https://github.com/bryanff25/Estructuras_Datos/blob/main/Perro.java)
+### SEGUNDO PARCIAL
+-[1 L.E.B](https://github.com/bryanff25/Estructuras_Datos/blob/main/ListaEnlazadaBasica.java)
+-[2 L.E](https://github.com/bryanff25/Estructuras_Datos/blob/main/ListaEnlazada.java)
+-[3 P.L.E](https://github.com/bryanff25/Estructuras_Datos/blob/main/PrincipalListaEnlazada.java)
+-[4 Nodo](https://github.com/bryanff25/Estructuras_Datos/blob/main/Nodo.java)
