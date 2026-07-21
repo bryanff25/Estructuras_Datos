@@ -16,3 +16,6 @@
 -[3 P.L.E](https://github.com/bryanff25/Estructuras_Datos/blob/main/PrincipalListaEnlazada.java)
 -[4 Nodo](https://github.com/bryanff25/Estructuras_Datos/blob/main/Nodo.java)
 -[5 MenuListaEnlazada](https://github.com/bryanff25/Estructuras_Datos/blob/main/MenuListaEnlazada.java)
+-[6 NodoDoble](https://github.com/bryanff25/Estructuras_Datos/blob/main/NodoDoble.java)
+-[7 ListaDobleEnlazada](https://github.com/bryanff25/Estructuras_Datos/blob/main/ListaDobleEnlazada.java)
+-[8 MenuDobleEnlazada](https://github.com/bryanff25/Estructuras_Datos/blob/main/MenuDoble.java)
