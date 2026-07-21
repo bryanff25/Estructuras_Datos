@@ -1,75 +1,55 @@
 import java.util.Scanner;
 
 public class MenuListaEnlazada {
-
     public static void main(String[] args) {
-
-        Scanner entrada = new Scanner(System.in);
         ListaEnlazada lista = new ListaEnlazada();
-
+        Scanner scanner = new Scanner(System.in);
         int opcion;
-        String dato, nuevoDato;
+        int valor;
 
         do {
-            System.out.println("\n");
-            System.out.println("   LISTA ENLAZADA   ");
-            System.out.println("");
-            System.out.println("1. Agregar nodo");
-            System.out.println("2. Mostrar lista");
-            System.out.println("3. Buscar nodo");
-            System.out.println("4. Actualizar nodo");
-            System.out.println("5. Eliminar nodo");
-            System.out.println("6. Salir");
-            System.out.print("Seleccione una opcion: ");
-            opcion = entrada.nextInt();
-            entrada.nextLine(); // Limpiar buffer
+            System.out.println("\n=== MENÚ LISTA ENLAZADA ===");
+            System.out.println("1. Insertar al inicio");
+            System.out.println("2. Insertar al final");
+            System.out.println("3. Mostrar lista");
+            System.out.println("4. Eliminar un elemento");
+            System.out.println("5. Salir");
+            System.out.print("Seleccione una opción: ");
+            
+            
+            while (!scanner.hasNextInt()) {
+                System.out.println("Por favor, introduce un número válido.");
+                scanner.next();
+            }
+            opcion = scanner.nextInt();
 
             switch (opcion) {
-
                 case 1:
-                    System.out.print("Ingrese el dato a agregar: ");
-                    dato = entrada.nextLine();
-                    lista.agregarFinal(dato);
-                    System.out.println("Nodo agregado correctamente.");
+                    System.out.print("Ingrese el valor a insertar al inicio: ");
+                    valor = scanner.nextInt();
+                    lista.insertarInicio(valor);
                     break;
-
                 case 2:
-                    System.out.println("\n      LISTA      ");
-                    lista.recorrido();
+                    System.out.print("Ingrese el valor a insertar al final: ");
+                    valor = scanner.nextInt();
+                    lista.insertarFinal(valor);
                     break;
-
                 case 3:
-                    System.out.print("Ingrese el dato a buscar: ");
-                    dato = entrada.nextLine();
-                    lista.buscar(dato);
+                    lista.mostrarLista();
                     break;
-
                 case 4:
-                    System.out.print("Ingrese el dato que desea actualizar: ");
-                    dato = entrada.nextLine();
-
-                    System.out.print("Ingrese el nuevo dato: ");
-                    nuevoDato = entrada.nextLine();
-
-                    lista.actualizar(dato, nuevoDato);
+                    System.out.print("Ingrese el valor del elemento a eliminar: ");
+                    valor = scanner.nextInt();
+                    lista.eliminarElemento(valor);
                     break;
-
                 case 5:
-                    System.out.print("Ingrese el dato que desea eliminar: ");
-                    dato = entrada.nextLine();
-                    lista.eliminar(dato);
+                    System.out.println("Saliendo del programa... ¡Hasta pronto!");
                     break;
-
-                case 6:
-                    System.out.println("Programa finalizado.");
-                    break;
-
                 default:
-                    System.out.println("Opcion invalida.");
+                    System.out.println("Opción no válida. Intente de nuevo.");
             }
+        } while (opcion != 5);
 
-        } while (opcion != 6);
-
-        entrada.close();
+        scanner.close();
     }
 }
